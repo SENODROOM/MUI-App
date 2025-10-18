@@ -100,8 +100,19 @@
   flex-direction: column;
 }
 
+.wallet-card {
+  padding: 0;
+}
+
 .wallet-row {
   display: flex;
+  border-bottom: 1px solid #ededed;
+}
+
+.wallet-lrow {
+  display: flex;
+  background-color: #d8d8d8;
+  /* border-bottom: 1px solid #ededed; */
 }
 
 .wallet-heading {
@@ -113,8 +124,11 @@
 
 .wallet-p {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+  display: flex;
+  width: 412px;
+  justify-content: flex-start;
 }
 
 /* .main-page-nav-tab {
