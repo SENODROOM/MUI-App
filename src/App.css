@@ -67,7 +67,7 @@
 .main-page-nav-tab {
   padding: 8px 9px;
   /* font-size: 0.8rem; */
-  border-radius: 6px;
+  border-radius: 25px;
   cursor: pointer;
   background-color: transparent;
   color: #555;
@@ -111,8 +111,11 @@
 
 .wallet-lrow {
   display: flex;
-  background-color: #d8d8d8;
   /* border-bottom: 1px solid #ededed; */
+}
+
+.graycolor {
+  background-color: #eef0f5;
 }
 
 .wallet-heading {
@@ -129,6 +132,10 @@
   display: flex;
   width: 412px;
   justify-content: flex-start;
+}
+
+.withdraw-heading{
+  font-size: 1rem;
 }
 
 /* .main-page-nav-tab {

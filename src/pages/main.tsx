@@ -13,6 +13,7 @@ import {
     Select,
     MenuItem,
     Container,
+    Input,
 } from "@mui/material";
 
 const Home = () => {
@@ -133,7 +134,7 @@ const Home = () => {
                             Amount Time
                         </Box>
                     </Box>
-                    <Box className="wallet-lrow">
+                    <Box className="wallet-lrow graycolor">
                         <Box className="wallet-heading" sx={{ fontWeight: "bold" }}>
                         </Box>
                         <Box className="wallet-heading" sx={{ fontWeight: "100", pl: 0 }}>
@@ -187,13 +188,27 @@ const Home = () => {
                 >
                     <Typography fontWeight={600}>Wallet Details</Typography>
                 </Box>
-                <Box className="div-container">
-                    <Box className="div-con-h">
-                        Withdraw amount limitation
+                <Box sx={{ display: "flex" }}>
+                    <Box className="div-container">
+                        <Box className="div-con-h">
+                            Withdraw amount limitation
+                        </Box>
+                        <Box className="div-con-con">
+                            <Box className="div-con-con-h">
+                                Schedule
+                            </Box>
+                            <Box className="div-con-con-input">
+                                <TextField label="Email" variant="outlined" />
+                                <TextField label="Password" type="password" variant="outlined" />
+                            </Box>
+                        </Box>
                     </Box>
-                    <Box className="div-con-con">
-                        <Box className="div-con-con-h">
-                            Schedule
+                    <Box className="withdraw">
+                        <Box className="withdraw-container">
+                            <Typography variant="h2" className="withdraw-heading" fontWeight={"bold"} sx={{ color: "#212121" }}>
+                                Total Withdraw amount limit
+                            </Typography>
+                            <input placeholder="1000"></input>
                         </Box>
                     </Box>
                 </Box>
