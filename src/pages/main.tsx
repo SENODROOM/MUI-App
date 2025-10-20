@@ -208,7 +208,15 @@ const Home = () => {
                             <Typography variant="h2" className="withdraw-heading" fontWeight={"bold"} sx={{ color: "#212121" }}>
                                 Total Withdraw amount limit
                             </Typography>
-                            <input placeholder="1000"></input>
+                            <input placeholder="1000" sx={{
+                                backgroundColor: "white",
+                                borderRadius: "22px",
+                                height: "36px",
+                                padding: "6px",
+                                border: "1px solid black",
+                                outline: "none",
+                                color: "black",
+                            }}></input>
                         </Box>
                     </Box>
                 </Box>
