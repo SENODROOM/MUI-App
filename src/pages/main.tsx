@@ -205,14 +205,18 @@ const Home = () => {
                     </Box>
                     <Box className="withdraw">
                         <Box className="withdraw-container">
-                            <Typography variant="h2" className="withdraw-heading" fontWeight={"bold"} sx={{ color: "#212121" }}>
-                                Total Withdraw amount limit
-                            </Typography>
-                            <input placeholder="1000" className="Input-heading"></input>
-                            <Typography variant="h2" className="withdraw-heading" fontWeight={"bold"} sx={{ color: "#212121" }}>
-                                Pre-user Withdraw amount limit 
-                            </Typography>
-                            <input placeholder="1000" className="Input-heading"></input>
+                            <Box>
+                                <Box className="withdraw-heading" fontWeight={"bold"} sx={{ color: "#212121" }}>
+                                    Total Withdraw amount limit
+                                </Box>
+                                <input placeholder="1000" className="Input-heading"></input>
+                            </Box>
+                            <Box>
+                                <Box className="withdraw-heading" fontWeight={"bold"} sx={{ color: "#212121" }}>
+                                    Pre-user Withdraw amount limit
+                                </Box>
+                                <input placeholder="50" className="Input-heading"></input>
+                            </Box>
                         </Box>
                     </Box>
                 </Box>

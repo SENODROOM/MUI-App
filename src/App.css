@@ -134,17 +134,22 @@
   justify-content: flex-start;
 }
 
+.withdraw-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .withdraw-heading {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .Input-heading {
   background-color: white;
   border-radius: 22px;
-  height: 36px;
+  height: 20px;
   padding: 6px;
   outline: inherit;
-  border: 1px solid black;
+  border: 1px solid #d8c6c6;
   outline: none;
   color: black;
 }
