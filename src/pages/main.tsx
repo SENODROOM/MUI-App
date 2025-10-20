@@ -186,36 +186,43 @@ const Home = () => {
                         borderTopRightRadius: "10px",
                     }}
                 >
-                    <Typography fontWeight={600}>Wallet Details</Typography>
+                    <Typography fontWeight={600}>Edit Risk Control Config</Typography>
                 </Box>
-                <Box sx={{ display: "flex" }}>
-                    <Box className="div-container">
-                        <Box className="div-con-h">
-                            Withdraw amount limitation
-                        </Box>
-                        <Box className="div-con-con">
-                            <Box className="div-con-con-h">
+
+                <Box>
+                    <Box className="div-con-h">
+                        Withdraw amount limitation
+                    </Box>
+                    <Box className="div-con-con"  sx={{ display: "flex" }}>
+                        <Box className="div-container">
+                            <Box>
                                 Schedule
                             </Box>
-                            <Box className="div-con-con-input">
-                                <TextField label="Email" variant="outlined" />
-                                <TextField label="Password" type="password" variant="outlined" />
-                            </Box>
                         </Box>
-                    </Box>
-                    <Box className="withdraw">
-                        <Box className="withdraw-container">
-                            <Box>
-                                <Box className="withdraw-heading" fontWeight={"bold"} sx={{ color: "#212121" }}>
-                                    Total Withdraw amount limit
+                        <Box className="withdraw">
+                            <Box className="withdraw-container">
+                                <Box className="withdraw-container-child">
+                                    <Box className="withdraw-heading" fontWeight={"bold"} sx={{ color: "#212121" }}>
+                                        Total Withdraw amount limit
+                                    </Box>
+                                    <input placeholder="1000" className="Input-heading"></input>
                                 </Box>
-                                <input placeholder="1000" className="Input-heading"></input>
+                                <Box className="withdraw-container-child">
+                                    <Box className="withdraw-heading" fontWeight={"bold"} sx={{ color: "#212121" }}>
+                                        Pre-user Withdraw amount limit
+                                    </Box>
+                                    <input placeholder="50" className="Input-heading"></input>
+                                </Box>
                             </Box>
-                            <Box>
-                                <Box className="withdraw-heading" fontWeight={"bold"} sx={{ color: "#212121" }}>
-                                    Pre-user Withdraw amount limit
+                            <Box className="withdraw-container">
+                                <Box className="withdraw-container-child">
+                                    <input placeholder="1000" className="Input-heading"></input>
+                                    <p>Set 0 or blank to dissable</p>
                                 </Box>
-                                <input placeholder="50" className="Input-heading"></input>
+                                <Box className="withdraw-container-child">
+                                    <input placeholder="50" className="Input-heading"></input>
+                                    <p>Set 0 or blank to dissable</p>
+                                </Box>
                             </Box>
                         </Box>
                     </Box>

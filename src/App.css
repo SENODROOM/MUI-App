@@ -139,6 +139,10 @@
   justify-content: space-between;
 }
 
+.withdraw-container-child{
+  width: 60%;
+}
+
 .withdraw-heading {
   font-size: 0.8rem;
 }
