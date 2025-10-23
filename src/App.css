@@ -12,6 +12,11 @@
   transition: filter 300ms;
 }
 
+.bold {
+  color: #0C2D57;
+  font-weight: 500;
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -100,6 +105,29 @@
   flex-direction: column;
 }
 
+.div-container-input {
+  width: 415px;
+  display: flex;
+  color: #a7a1a1;
+  height: 36px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #bcbcbc;
+  border-radius: 31px;
+  padding: 10px 15px;
+  margin: 28px;
+}
+
+.div-con-content {
+  padding: 13px;
+  background-color: #ced2db;
+}
+
+.div-con-content-child {
+  background-color: white;
+  border-radius: 15px;
+}
+
 .wallet-card {
   padding: 0;
 }
@@ -139,23 +167,96 @@
   justify-content: space-between;
 }
 
-.withdraw-container-child{
-  width: 60%;
+.withdraw-container-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 60%; */
 }
 
 .withdraw-heading {
   font-size: 0.8rem;
+  font-weight: 550;
+  color: #4e545c;
+}
+
+.div-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.div-container-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.div-con-h {
+  display: flex;
+  padding: 7px 12px;
+  color: #0C2D57;
+  font-weight: bold;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+}
+
+.div-con-p {
+  font-size: 12px;
+  color: #897777;
+  margin: 0;
 }
 
 .Input-heading {
   background-color: white;
   border-radius: 22px;
-  height: 20px;
-  padding: 6px;
+  height: 26px;
+  width: 178px;
+  padding: 5px 11px;
   outline: inherit;
+  margin: 9px 10px 9px 0px;
   border: 1px solid #d8c6c6;
   outline: none;
   color: black;
+}
+
+.OUTC {
+  margin-left: 6px;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.container-arrow {
+  margin: 0;
+  color: #0C2D57;
+  font-weight: 500;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5px;
+}
+
+
+
+
+
+
+
+/* --------------------------------------Save/Cancel  */
+.SaveCancel {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 11px;
+}
+
+.SaveCancel-button {
+  color: #0C2D57;
+  border: 2px solid #0C2057;
+  border-radius: 25px;
+  padding: 5px 20px;
+  margin: 12px 5px;
+  width: 66px;
 }
 
 /* .main-page-nav-tab {
