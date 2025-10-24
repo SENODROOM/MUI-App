@@ -283,8 +283,8 @@ const Home = () => {
                     </Box>
                 </Box>
                 <Box>
-                    <Frequency/>
-                    <Frequency/>
+                    <Frequency body={'address'}/>
+                    <Frequency body={'User'}/>
                 </Box>
             </Card>
         </Container >
